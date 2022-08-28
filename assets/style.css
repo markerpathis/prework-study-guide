@@ -1,5 +1,9 @@
 * {
+    /* The margin property acts much like a margin in a word processing document. A margin property indicates how much space we want around the outside of an element. 
+    The margin is not visible on the page; it merely adds a buffer. When we set the margin property to 0, we are indicating that we want NO extra space around the element. */
     margin: 0;
+    /* The padding property is often confused withmargin, but it is not the same thing. The padding property adds space around the content inside an element. When you increase padding, 
+    you are actually making the entire element bigger! That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element. */
     padding: 0;
    }
    
@@ -7,7 +11,7 @@
    footer {
     width: 100%;
     height: 120px;
-    background-color: blue;
+    background-color: green;
     color: white;
    }
    
